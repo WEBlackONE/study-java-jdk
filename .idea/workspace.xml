@@ -2,30 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99dbbf79-2732-4b73-894e-be2b4ad7f8ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/collection" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/collection/collection.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection/src" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/collection/src/main" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/collection/src/main/java" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/collection/src/main/java/com" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/collection/src/main/java/com/sibo" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/collection/src/main/java/com/sibo/collection" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/collection/src/main/java/com/sibo/collection/test" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/collection/src/main/java/com/sibo/collection/test/BookPo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection/src/main/java/com/sibo/collection/test/MyComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection/src/main/java/com/sibo/collection/test/UserPo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection/src/main/resources" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/collection/src/main/resources/temp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection/src/test" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/collection/src/test/java" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/collection/src/test/java/com" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/collection/src/test/java/com/sibo" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/collection/src/test/java/com/sibo/collection" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/collection/src/test/java/com/sibo/collection/test" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/collection/src/test/java/com/sibo/collection/test/TestCollectionsBinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection/src/test/java/com/sibo/collection/test/TestCollectionsMinMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection/src/test/java/com/sibo/collection/test/TestCollectionsSort.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/collection/target" afterDir="true" />
       <change afterPath="$PROJECT_DIR$/collection/target/classes" afterDir="true" />
       <change afterPath="$PROJECT_DIR$/collection/target/classes/com" afterDir="true" />
@@ -362,7 +338,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555377938806" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555377955293" />
     <property name="jdk.selected.JAVA_MODULE" value="JDK_1.8" />
     <property name="last_opened_file_path" value="I:/！文档库/md文档/集合部分" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -556,8 +532,16 @@
       <workItem from="1554973873827" duration="9466000" />
       <workItem from="1555051358947" duration="6777000" />
       <workItem from="1555292540853" duration="1568000" />
-      <workItem from="1555295529443" duration="7920000" />
+      <workItem from="1555295529443" duration="8531000" />
     </task>
+    <task id="LOCAL-00001" summary="Collections集合学习">
+      <created>1555378025614</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555378025615</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -593,7 +577,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25731000" />
+    <option name="totallyTimeSpent" value="26342000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
