@@ -14,9 +14,9 @@ debug走一波.....
 
 ![](assets/企业微信截图_15550533003050.png)
 
-### 3.[重点]`java.util.Arrays#sort(T[], int, int, java.util.Comparator<? super T>)`
+##### 4.[重点]`java.util.Arrays#sort(T[], int, int, java.util.Comparator<? super T>)`
 
-![](I:\！文档库\md文档\1555060996(1).png)
+![](assets/1555060996(1).png)
 
 ### 4.[ 重点]`java.util.Arrays#mergeSort(java.lang.Object[], java.lang.Object[], int, int, int)` 归并排序
 

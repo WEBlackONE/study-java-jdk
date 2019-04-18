@@ -5,7 +5,7 @@
 
 ## 2.结构关系
 
-![](I:\！文档库\md文档\1555552504(1).png)
+![](assets/1555552504(1).png)
 
 > `LinkedHashSet`继承自`HashSet`，所有的构造方法都会调用父类`HashSet`的一个构造方法，使用底层的`LinkedHashMap`去实现功能。
 
