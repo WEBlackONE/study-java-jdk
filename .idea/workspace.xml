@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99dbbf79-2732-4b73-894e-be2b4ad7f8ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/collection/src/main/java/com/sibo/set" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/collection/src/main/java/com/sibo/set/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/collection/src/main/java/com/sibo/set/test/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection/src/test/java/com/sibo/list" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/collection/src/test/java/com/sibo/list/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/collection/src/test/java/com/sibo/list/test/ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection/src/test/java/com/sibo/set" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/collection/src/test/java/com/sibo/set/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/collection/src/test/java/com/sibo/set/test/EnumSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection/src/test/java/com/sibo/set/test/HashSetLinkedHashSetTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/collection/target" afterDir="true" />
       <change afterPath="$PROJECT_DIR$/collection/target/classes" afterDir="true" />
       <change afterPath="$PROJECT_DIR$/collection/target/classes/com" afterDir="true" />
@@ -27,6 +37,7 @@
       <change afterPath="$PROJECT_DIR$/collection/target/test-classes/com/sibo/collection/test/TestCollectionsMinMax.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/collection/target/test-classes/com/sibo/collection/test/TestCollectionsSort$1.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/collection/target/test-classes/com/sibo/collection/test/TestCollectionsSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/comsibocollection/target/" />
     <ignored path="$PROJECT_DIR$/collection/target/" />
@@ -49,23 +60,31 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="24" />
+          <entry key="EnumSet" value="1" />
+          <entry key="HashSet" value="1" />
+          <entry key="LinkedHashSet" value="1" />
+          <entry key="LinkedList" value="2" />
+          <entry key="RegularEnumSet" value="1" />
+          <entry key="TreeSet" value="1" />
+          <entry key="Vector" value="1" />
+          <entry key="java" value="40" />
           <entry key="md" value="1" />
-          <entry key="temp" value="1" />
+          <entry key="temp" value="2" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="24" />
+          <entry key="JAVA" value="40" />
           <entry key="Markdown" value="1" />
-          <entry key="XML" value="2" />
+          <entry key="UML" value="8" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="978" />
+          <entry key="java" value="1830" />
           <entry key="temp" value="7" />
           <entry key="txt" value="26" />
           <entry key="xml" value="27" />
@@ -73,7 +92,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="978" />
+          <entry key="JAVA" value="1830" />
           <entry key="PLAIN_TEXT" value="28" />
           <entry key="XML" value="34" />
         </counts>
@@ -83,123 +102,211 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collection/src/test/java/com/sibo/collection/test/TestCollectionsSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1302#1474#0" expanded="true" />
-                <element signature="e#1473#1474#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collection/src/test/java/com/sibo/collection/test/TestCollectionsBinarySearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="41" column="5" selection-start-line="14" selection-start-column="3" selection-end-line="41" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#616#624#0" expanded="true" />
-                <element signature="e#819#995#0" expanded="true" />
-                <element signature="e#994#995#0" expanded="true" />
-                <element signature="e#1036#1212#0" expanded="true" />
-                <element signature="e#1211#1212#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collection/src/main/java/com/sibo/collection/test/BookPo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collection/src/main/java/com/sibo/collection/test/MyComparator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-              <folding>
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Collections.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="715" column="5" selection-start-line="702" selection-start-column="3" selection-end-line="715" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#5644#5645#0" expanded="true" />
-                <element signature="e#5675#5676#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/collection/src/test/java/com/sibo/collection/test/TestCollectionsMinMax.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+            <state relative-caret-position="160">
+              <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1000#1176#0" expanded="true" />
                 <element signature="e#1175#1176#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/collection/src/main/resources/temp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/HashSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+            <state relative-caret-position="145">
+              <caret line="338" column="41" selection-start-line="338" selection-start-column="30" selection-end-line="338" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Arrays.java">
+        <entry file="file://$PROJECT_DIR$/collection/src/test/java/com/sibo/set/test/HashSetLinkedHashSetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="1441" column="5" selection-start-line="1441" selection-start-column="5" selection-end-line="1441" selection-end-column="5" />
+            <state relative-caret-position="331">
+              <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#494#502#0" expanded="true" />
+                <element signature="e#622#630#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/ArrayList.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/EnumSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38696">
-              <caret line="1453" column="17" selection-start-line="1453" selection-start-column="17" selection-end-line="1453" selection-end-column="17" />
+            <state relative-caret-position="381">
+              <caret line="114" column="29" lean-forward="true" selection-start-line="114" selection-start-column="29" selection-end-line="114" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/ComparableTimSort.java">
+        <entry file="file://$PROJECT_DIR$/collection/src/test/java/com/sibo/set/test/EnumSetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4928">
-              <caret line="200" column="32" selection-start-line="200" selection-start-column="32" selection-end-line="200" selection-end-column="32" />
+            <state relative-caret-position="247">
+              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1441#1448#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collection/src/main/java/com/sibo/set/test/Color.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="499">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/RegularEnumSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+              <folding>
+                <element signature="e#787#788#0" expanded="true" />
+                <element signature="e#831#832#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Long.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="1473" column="27" lean-forward="true" selection-start-line="1473" selection-start-column="27" selection-end-line="1473" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/java.util.RegularEnumSet">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>java.util.RegularEnumSet</OriginalElement>
+              <nodes>
+                <node x="325.74479166666663" y="170.0">java.util.AbstractCollection</node>
+                <node x="120.99999999999997" y="255.0">java.lang.Cloneable</node>
+                <node x="0.0" y="255.0">java.lang.Enum</node>
+                <node x="272.0" y="85.0">java.util.Collection</node>
+                <node x="270.0" y="255.0">java.util.AbstractSet</node>
+                <node x="223.74479166666663" y="170.0">java.util.Set</node>
+                <node x="13.932291666666657" y="425.0">java.util.RegularEnumSet</node>
+                <node x="280.5" y="0.0">java.lang.Iterable</node>
+                <node x="90.24479166666666" y="340.0">java.util.EnumSet</node>
+                <node x="13.994791666666629" y="170.0">java.io.Serializable</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="java.util.EnumSet" target="java.lang.Cloneable">
+                  <point x="15.125" y="-17.5" />
+                  <point x="165.86979166666666" y="315.0" />
+                  <point x="185.49999999999997" y="315.0" />
+                  <point x="0.0" y="17.5" />
+                </edge>
+                <edge source="java.util.Set" target="java.util.Collection">
+                  <point x="0.0" y="-17.5" />
+                  <point x="264.74479166666663" y="145.0" />
+                  <point x="304.25" y="145.0" />
+                  <point x="-32.25" y="17.5" />
+                </edge>
+                <edge source="java.util.RegularEnumSet" target="java.lang.Enum">
+                  <point x="-43.25" y="-17.5" />
+                  <point x="57.18229166666666" y="400.0" />
+                  <point x="25.0" y="400.0" />
+                  <point x="-25.0" y="17.5" />
+                </edge>
+                <edge source="java.util.EnumSet" target="java.util.AbstractSet">
+                  <point x="45.375" y="-17.5" />
+                  <point x="196.11979166666666" y="315.0" />
+                  <point x="338.5" y="315.0" />
+                  <point x="0.0" y="17.5" />
+                </edge>
+                <edge source="java.lang.Enum" target="java.io.Serializable">
+                  <point x="0.0" y="-17.5" />
+                  <point x="50.0" y="230.0" />
+                  <point x="48.49479166666663" y="230.0" />
+                  <point x="-34.5" y="17.5" />
+                </edge>
+                <edge source="java.util.EnumSet" target="java.lang.Enum">
+                  <point x="-45.375" y="-17.5" />
+                  <point x="105.36979166666666" y="315.0" />
+                  <point x="75.0" y="315.0" />
+                  <point x="25.0" y="17.5" />
+                </edge>
+                <edge source="java.util.Collection" target="java.lang.Iterable">
+                  <point x="0.0" y="-17.5" />
+                  <point x="0.0" y="17.5" />
+                </edge>
+                <edge source="java.util.AbstractSet" target="java.util.Set">
+                  <point x="-34.25" y="-17.5" />
+                  <point x="304.25" y="230.0" />
+                  <point x="264.74479166666663" y="230.0" />
+                  <point x="0.0" y="17.5" />
+                </edge>
+                <edge source="java.util.EnumSet" target="java.io.Serializable">
+                  <point x="-15.125" y="-17.5" />
+                  <point x="135.61979166666666" y="315.0" />
+                  <point x="110.49999999999997" y="315.0" />
+                  <point x="110.49999999999997" y="230.0" />
+                  <point x="117.49479166666663" y="230.0" />
+                  <point x="34.5" y="17.5" />
+                </edge>
+                <edge source="java.util.RegularEnumSet" target="java.util.EnumSet">
+                  <point x="43.25" y="-17.5" />
+                  <point x="143.68229166666666" y="400.0" />
+                  <point x="150.74479166666666" y="400.0" />
+                  <point x="0.0" y="17.5" />
+                </edge>
+                <edge source="java.util.AbstractCollection" target="java.util.Collection">
+                  <point x="0.0" y="-17.5" />
+                  <point x="417.74479166666663" y="145.0" />
+                  <point x="368.75" y="145.0" />
+                  <point x="32.25" y="17.5" />
+                </edge>
+                <edge source="java.util.AbstractSet" target="java.util.AbstractCollection">
+                  <point x="34.25" y="-17.5" />
+                  <point x="372.75" y="230.0" />
+                  <point x="417.74479166666663" y="230.0" />
+                  <point x="0.0" y="17.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-193.5" y="111.5" />
+              <SelectedNodes />
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collection/src/test/java/com/sibo/list/test/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="23" column="46" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="23" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -210,6 +317,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -219,6 +327,11 @@
       <find>sort</find>
       <find>shuffle</find>
       <find>binarySearch</find>
+      <find>reverse</find>
+      <find>public static void reverse(List&lt;?&gt; list)</find>
+      <find>spliterator</find>
+      <find>size</find>
+      <find>elements</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -236,6 +349,10 @@
         <option value="$PROJECT_DIR$/collection/src/test/java/com/sibo/collection/test/TestCollectionsBinarySearch.java" />
         <option value="$PROJECT_DIR$/collection/src/test/java/com/sibo/collection/test/TestCollectionsMinMax.java" />
         <option value="$PROJECT_DIR$/collection/src/main/resources/temp" />
+        <option value="$PROJECT_DIR$/collection/src/test/java/com/sibo/list/test/ArrayList.java" />
+        <option value="$PROJECT_DIR$/collection/src/test/java/com/sibo/set/test/HashSetLinkedHashSetTest.java" />
+        <option value="$PROJECT_DIR$/collection/src/main/java/com/sibo/set/test/Color.java" />
+        <option value="$PROJECT_DIR$/collection/src/test/java/com/sibo/set/test/EnumSetTest.java" />
       </list>
     </option>
   </component>
@@ -253,8 +370,8 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -295,37 +412,68 @@
               <item name="collection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java基础学习" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java基础学习" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sibo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java基础学习" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java基础学习" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sibo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java基础学习" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java基础学习" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java基础学习" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="java基础学习" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java基础学习" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; JDK_1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="java基础学习" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; JDK_1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java基础学习" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; JDK_1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java基础学习" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java基础学习" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; JDK_1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java基础学习" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="sibo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java基础学习" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java基础学习" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sibo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -336,9 +484,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="EnumS&#9;PSI&#9;JAVA://java.util.EnumSet&#10;Treeset&#9;PSI&#9;JAVA://java.util.TreeSet&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;Stack&#9;PSI&#9;JAVA://java.util.Stack&#10;Vector&#9;PSI&#9;JAVA://java.util.Vector&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;List&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/ArrayList.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555377955293" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555573173922" />
     <property name="jdk.selected.JAVA_MODULE" value="JDK_1.8" />
     <property name="last_opened_file_path" value="I:/！文档库/md文档/集合部分" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -365,7 +514,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestCollectionsMinMax.testCollectionsSort">
+  <component name="RunManager" selected="Application.EnumSetTest">
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -400,8 +549,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCollectionsSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sibo.collection.test.TestCollectionsSort" />
+    <configuration name="ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sibo.list.test.ArrayList" />
+      <module name="collection" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnumSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sibo.set.test.EnumSetTest" />
       <module name="collection" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -416,12 +574,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCollectionsBinarySearch.testCollectionsBinarySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayList.removeAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collection" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="PACKAGE_NAME" value="com.sibo.collection.test" />
-      <option name="MAIN_CLASS_NAME" value="com.sibo.collection.test.TestCollectionsBinarySearch" />
-      <option name="METHOD_NAME" value="testCollectionsBinarySearch" />
+      <option name="PACKAGE_NAME" value="com.sibo.list.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sibo.list.test.ArrayList" />
+      <option name="METHOD_NAME" value="removeAllTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashSetLinkedHashSetTest.HashSetLinkedHashSetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="collection" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="PACKAGE_NAME" value="com.sibo.set.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sibo.set.test.HashSetLinkedHashSetTest" />
+      <option name="METHOD_NAME" value="HashSetLinkedHashSetTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -434,30 +604,6 @@
       <option name="PACKAGE_NAME" value="com.sibo.collection.test" />
       <option name="MAIN_CLASS_NAME" value="com.sibo.collection.test.TestCollectionsMinMax" />
       <option name="METHOD_NAME" value="testCollectionsSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCollectionsSort.testCollectionsSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="collection" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="PACKAGE_NAME" value="com.sibo.collection.test" />
-      <option name="MAIN_CLASS_NAME" value="com.sibo.collection.test.TestCollectionsSort" />
-      <option name="METHOD_NAME" value="testCollectionsSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCollectionsSort.testCollectionsSortimplementsComparable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="collection" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="PACKAGE_NAME" value="com.sibo.collection.test" />
-      <option name="MAIN_CLASS_NAME" value="com.sibo.collection.test.TestCollectionsSort" />
-      <option name="METHOD_NAME" value="testCollectionsSortimplementsComparable" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -481,24 +627,24 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestCollectionsSort" />
-      <item itemvalue="JUnit.TestCollectionsSort.testCollectionsSortimplementsComparable" />
-      <item itemvalue="JUnit.TestCollectionsSort.testCollectionsSort" />
-      <item itemvalue="JUnit.TestCollectionsBinarySearch.testCollectionsBinarySearch" />
       <item itemvalue="JUnit.TestCollectionsMinMax.testCollectionsSort" />
+      <item itemvalue="Application.ArrayList" />
+      <item itemvalue="JUnit.ArrayList.removeAllTest" />
+      <item itemvalue="JUnit.HashSetLinkedHashSetTest.HashSetLinkedHashSetTest" />
+      <item itemvalue="Application.EnumSetTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EnumSetTest" />
+        <item itemvalue="JUnit.HashSetLinkedHashSetTest.HashSetLinkedHashSetTest" />
+        <item itemvalue="JUnit.ArrayList.removeAllTest" />
+        <item itemvalue="Application.ArrayList" />
         <item itemvalue="JUnit.TestCollectionsMinMax.testCollectionsSort" />
-        <item itemvalue="JUnit.TestCollectionsBinarySearch.testCollectionsBinarySearch" />
-        <item itemvalue="JUnit.TestCollectionsSort.testCollectionsSortimplementsComparable" />
-        <item itemvalue="JUnit.TestCollectionsSort.testCollectionsSort" />
-        <item itemvalue="Application.TestCollectionsSort" />
       </list>
     </recent_temporary>
   </component>
   <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES,SHOW_LAMBDA" />
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR,SHOW_NON_PUBLIC" />
   </component>
   <component name="SvnConfiguration" cleanupOnStartRun="true">
     <configuration>C:\Users\JayceKoba\AppData\Roaming\Subversion</configuration>
@@ -532,7 +678,7 @@
       <workItem from="1554973873827" duration="9466000" />
       <workItem from="1555051358947" duration="6777000" />
       <workItem from="1555292540853" duration="1568000" />
-      <workItem from="1555295529443" duration="8531000" />
+      <workItem from="1555295529443" duration="27946000" />
     </task>
     <task id="LOCAL-00001" summary="Collections集合学习">
       <created>1555378025614</created>
@@ -545,46 +691,46 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCollectionsBinarySearch_testCollectionsBinarySearch - 2019.04.15 at 16h 55m 05s.xml">
-      <configuration name="TestCollectionsBinarySearch.testCollectionsBinarySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCollectionsBinarySearch_testCollectionsBinarySearch - 2019.04.15 at 16h 55m 24s.xml">
-      <configuration name="TestCollectionsBinarySearch.testCollectionsBinarySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCollectionsBinarySearch_testCollectionsBinarySearch - 2019.04.15 at 16h 55m 46s.xml">
-      <configuration name="TestCollectionsBinarySearch.testCollectionsBinarySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCollectionsBinarySearch_testCollectionsBinarySearch - 2019.04.15 at 16h 56m 20s.xml">
-      <configuration name="TestCollectionsBinarySearch.testCollectionsBinarySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCollectionsBinarySearch_testCollectionsBinarySearch - 2019.04.15 at 17h 00m 01s.xml">
-      <configuration name="TestCollectionsBinarySearch.testCollectionsBinarySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCollectionsBinarySearch_testCollectionsBinarySearch - 2019.04.15 at 17h 00m 24s.xml">
-      <configuration name="TestCollectionsBinarySearch.testCollectionsBinarySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCollectionsMinMax_testCollectionsSort - 2019.04.15 at 17h 41m 01s.xml">
-      <configuration name="TestCollectionsMinMax.testCollectionsSort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCollectionsMinMax_testCollectionsSort - 2019.04.15 at 17h 41m 40s.xml">
-      <configuration name="TestCollectionsMinMax.testCollectionsSort" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestCollectionsMinMax_testCollectionsSort - 2019.04.15 at 17h 42m 00s.xml">
       <configuration name="TestCollectionsMinMax.testCollectionsSort" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestCollectionsMinMax_testCollectionsSort - 2019.04.15 at 17h 42m 49s.xml">
       <configuration name="TestCollectionsMinMax.testCollectionsSort" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ArrayList_removeAllTest - 2019.04.16 at 15h 53m 47s.xml">
+      <configuration name="ArrayList.removeAllTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayList_removeAllTest - 2019.04.16 at 15h 54m 00s.xml">
+      <configuration name="ArrayList.removeAllTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayList_removeAllTest - 2019.04.16 at 16h 03m 34s.xml">
+      <configuration name="ArrayList.removeAllTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayList_removeAllTest - 2019.04.16 at 16h 05m 17s.xml">
+      <configuration name="ArrayList.removeAllTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashSetLinkedHashSetTest_HashSetLinkedHashSetTest - 2019.04.18 at 09h 51m 30s.xml">
+      <configuration name="HashSetLinkedHashSetTest.HashSetLinkedHashSetTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashSetLinkedHashSetTest_HashSetLinkedHashSetTest - 2019.04.18 at 09h 51m 52s.xml">
+      <configuration name="HashSetLinkedHashSetTest.HashSetLinkedHashSetTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashSetLinkedHashSetTest_HashSetLinkedHashSetTest - 2019.04.18 at 09h 53m 22s.xml">
+      <configuration name="HashSetLinkedHashSetTest.HashSetLinkedHashSetTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashSetLinkedHashSetTest_HashSetLinkedHashSetTest - 2019.04.18 at 09h 54m 17s.xml">
+      <configuration name="HashSetLinkedHashSetTest.HashSetLinkedHashSetTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26342000" />
+    <option name="totallyTimeSpent" value="45757000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49842766" visible="true" weight="0.26086956" />
-      <window_info id="Structure" order="1" sideWeight="0.5015723" side_tool="true" weight="0.26086956" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.14018692" visible="true" weight="0.26086956" />
+      <window_info id="Structure" order="1" sideWeight="0.8598131" side_tool="true" weight="0.26086956" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -594,13 +740,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49973163" visible="true" weight="0.34345794" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49973163" weight="0.32943925" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5002684" side_tool="true" visible="true" weight="0.34345794" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.50116825" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5002684" side_tool="true" weight="0.34345794" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.5186916" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32943925" />
       <window_info anchor="bottom" id="Tail" order="12" />
@@ -697,13 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="600" column="28" selection-start-line="600" selection-start-column="28" selection-end-line="600" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/collection/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
@@ -725,13 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38696">
-          <caret line="1453" column="17" selection-start-line="1453" selection-start-column="17" selection-end-line="1453" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/ComparableTimSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4928">
@@ -744,16 +876,6 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="1441" column="5" selection-start-line="1441" selection-start-column="5" selection-end-line="1441" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -778,6 +900,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/collection/src/test/java/com/sibo/collection/test/TestCollectionsSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="18" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1302#1474#0" expanded="true" />
+            <element signature="e#1473#1474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.LinkedList">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.LinkedList</OriginalElement>
+          <nodes>
+            <node x="" y="">java.util.AbstractCollection</node>
+            <node x="" y="">java.util.List</node>
+            <node x="" y="">java.lang.Cloneable</node>
+            <node x="" y="">java.util.Collection</node>
+            <node x="" y="">java.util.AbstractList</node>
+            <node x="" y="">java.util.Queue</node>
+            <node x="" y="">java.util.LinkedList</node>
+            <node x="" y="">java.util.Deque</node>
+            <node x="" y="">java.util.AbstractSequentialList</node>
+            <node x="" y="">java.lang.Iterable</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="349.5" y="230.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="456" selection-start-line="456" selection-end-line="460" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="1434" column="46" lean-forward="true" selection-start-line="1434" selection-start-column="46" selection-end-line="1434" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="359" column="9" lean-forward="true" selection-start-line="359" selection-start-column="9" selection-end-line="359" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5644#5645#0" expanded="true" />
+            <element signature="e#5675#5676#0" expanded="true" />
+            <element signature="e#183154#183155#0" expanded="true" />
+            <element signature="e#183198#183199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/collection/src/test/java/com/sibo/collection/test/TestCollectionsBinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="583">
@@ -793,38 +993,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Collections.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/AbstractList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="715" column="5" selection-start-line="702" selection-start-column="3" selection-end-line="715" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5644#5645#0" expanded="true" />
-            <element signature="e#5675#5676#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="380">
+          <caret line="75" column="30" lean-forward="true" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collection/src/test/java/com/sibo/collection/test/TestCollectionsSort.java">
+    <entry file="uml://JAVA/java.util.Vector">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.Vector</OriginalElement>
+          <nodes>
+            <node x="" y="">java.util.RandomAccess</node>
+            <node x="" y="">java.util.AbstractCollection</node>
+            <node x="" y="">java.util.List</node>
+            <node x="" y="">java.lang.Cloneable</node>
+            <node x="" y="">java.util.Vector</node>
+            <node x="" y="">java.util.Collection</node>
+            <node x="" y="">java.util.AbstractList</node>
+            <node x="" y="">java.lang.Iterable</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="373.0" y="187.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1302#1474#0" expanded="true" />
-            <element signature="e#1473#1474#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="188">
+          <caret line="126" column="71" lean-forward="true" selection-start-line="126" selection-start-column="71" selection-end-line="126" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/collection/src/test/java/com/sibo/collection/test/TestCollectionsMinMax.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+        <state relative-caret-position="160">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1000#1176#0" expanded="true" />
             <element signature="e#1175#1176#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.HashSet">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.HashSet</OriginalElement>
+          <nodes>
+            <node x="" y="">java.util.HashSet</node>
+            <node x="" y="">java.util.AbstractCollection</node>
+            <node x="" y="">java.lang.Cloneable</node>
+            <node x="" y="">java.util.Collection</node>
+            <node x="" y="">java.util.AbstractSet</node>
+            <node x="" y="">java.util.Set</node>
+            <node x="" y="">java.lang.Iterable</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="268.0" y="187.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="338" column="41" selection-start-line="338" selection-start-column="30" selection-end-line="338" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection/src/test/java/com/sibo/set/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -832,6 +1095,274 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection/src/test/java/com/sibo/list/test/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="23" column="46" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="23" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.LinkedHashSet">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.LinkedHashSet</OriginalElement>
+          <nodes>
+            <node x="" y="">java.util.HashSet</node>
+            <node x="" y="">java.util.AbstractCollection</node>
+            <node x="" y="">java.lang.Cloneable</node>
+            <node x="" y="">java.util.Collection</node>
+            <node x="" y="">java.util.AbstractSet</node>
+            <node x="" y="">java.util.Set</node>
+            <node x="" y="">java.util.LinkedHashSet</node>
+            <node x="" y="">java.lang.Iterable</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="247.5" y="230.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.TreeSet">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.TreeSet</OriginalElement>
+          <nodes>
+            <node x="" y="">java.util.AbstractCollection</node>
+            <node x="" y="">java.lang.Cloneable</node>
+            <node x="" y="">java.util.SortedSet</node>
+            <node x="" y="">java.util.Collection</node>
+            <node x="" y="">java.util.AbstractSet</node>
+            <node x="" y="">java.util.Set</node>
+            <node x="" y="">java.util.NavigableSet</node>
+            <node x="" y="">java.util.TreeSet</node>
+            <node x="" y="">java.lang.Iterable</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="330.0" y="338.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/TreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="97" column="47" lean-forward="true" selection-start-line="97" selection-start-column="47" selection-end-line="97" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/LinkedHashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="184" column="59" lean-forward="true" selection-start-line="184" selection-start-column="59" selection-end-line="184" selection-end-column="59" />
+          <folding>
+            <element signature="e#6162#6163#0" expanded="true" />
+            <element signature="e#6199#6200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection/src/test/java/com/sibo/set/test/HashSetLinkedHashSetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#494#502#0" expanded="true" />
+            <element signature="e#622#630#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection/src/main/java/com/sibo/set/test/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.EnumSet">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.EnumSet</OriginalElement>
+          <nodes>
+            <node x="" y="">java.util.AbstractCollection</node>
+            <node x="" y="">java.lang.Cloneable</node>
+            <node x="" y="">java.lang.Enum</node>
+            <node x="" y="">java.util.Collection</node>
+            <node x="" y="">java.util.AbstractSet</node>
+            <node x="" y="">java.util.Set</node>
+            <node x="" y="">java.util.EnumSet</node>
+            <node x="" y="">java.lang.Iterable</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="256.0" y="187.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection/src/test/java/com/sibo/set/test/EnumSetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1441#1448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/EnumSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="114" column="29" lean-forward="true" selection-start-line="114" selection-start-column="29" selection-end-line="114" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.RegularEnumSet">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.RegularEnumSet</OriginalElement>
+          <nodes>
+            <node x="325.74479166666663" y="170.0">java.util.AbstractCollection</node>
+            <node x="120.99999999999997" y="255.0">java.lang.Cloneable</node>
+            <node x="0.0" y="255.0">java.lang.Enum</node>
+            <node x="272.0" y="85.0">java.util.Collection</node>
+            <node x="270.0" y="255.0">java.util.AbstractSet</node>
+            <node x="223.74479166666663" y="170.0">java.util.Set</node>
+            <node x="13.932291666666657" y="425.0">java.util.RegularEnumSet</node>
+            <node x="280.5" y="0.0">java.lang.Iterable</node>
+            <node x="90.24479166666666" y="340.0">java.util.EnumSet</node>
+            <node x="13.994791666666629" y="170.0">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.util.EnumSet" target="java.lang.Cloneable">
+              <point x="15.125" y="-17.5" />
+              <point x="165.86979166666666" y="315.0" />
+              <point x="185.49999999999997" y="315.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="java.util.Set" target="java.util.Collection">
+              <point x="0.0" y="-17.5" />
+              <point x="264.74479166666663" y="145.0" />
+              <point x="304.25" y="145.0" />
+              <point x="-32.25" y="17.5" />
+            </edge>
+            <edge source="java.util.RegularEnumSet" target="java.lang.Enum">
+              <point x="-43.25" y="-17.5" />
+              <point x="57.18229166666666" y="400.0" />
+              <point x="25.0" y="400.0" />
+              <point x="-25.0" y="17.5" />
+            </edge>
+            <edge source="java.util.EnumSet" target="java.util.AbstractSet">
+              <point x="45.375" y="-17.5" />
+              <point x="196.11979166666666" y="315.0" />
+              <point x="338.5" y="315.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="java.lang.Enum" target="java.io.Serializable">
+              <point x="0.0" y="-17.5" />
+              <point x="50.0" y="230.0" />
+              <point x="48.49479166666663" y="230.0" />
+              <point x="-34.5" y="17.5" />
+            </edge>
+            <edge source="java.util.EnumSet" target="java.lang.Enum">
+              <point x="-45.375" y="-17.5" />
+              <point x="105.36979166666666" y="315.0" />
+              <point x="75.0" y="315.0" />
+              <point x="25.0" y="17.5" />
+            </edge>
+            <edge source="java.util.Collection" target="java.lang.Iterable">
+              <point x="0.0" y="-17.5" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="java.util.AbstractSet" target="java.util.Set">
+              <point x="-34.25" y="-17.5" />
+              <point x="304.25" y="230.0" />
+              <point x="264.74479166666663" y="230.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="java.util.EnumSet" target="java.io.Serializable">
+              <point x="-15.125" y="-17.5" />
+              <point x="135.61979166666666" y="315.0" />
+              <point x="110.49999999999997" y="315.0" />
+              <point x="110.49999999999997" y="230.0" />
+              <point x="117.49479166666663" y="230.0" />
+              <point x="34.5" y="17.5" />
+            </edge>
+            <edge source="java.util.RegularEnumSet" target="java.util.EnumSet">
+              <point x="43.25" y="-17.5" />
+              <point x="143.68229166666666" y="400.0" />
+              <point x="150.74479166666666" y="400.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="java.util.AbstractCollection" target="java.util.Collection">
+              <point x="0.0" y="-17.5" />
+              <point x="417.74479166666663" y="145.0" />
+              <point x="368.75" y="145.0" />
+              <point x="32.25" y="17.5" />
+            </edge>
+            <edge source="java.util.AbstractSet" target="java.util.AbstractCollection">
+              <point x="34.25" y="-17.5" />
+              <point x="372.75" y="230.0" />
+              <point x="417.74479166666663" y="230.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-193.5" y="111.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Long.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="1473" column="27" lean-forward="true" selection-start-line="1473" selection-start-column="27" selection-end-line="1473" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/RegularEnumSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding>
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

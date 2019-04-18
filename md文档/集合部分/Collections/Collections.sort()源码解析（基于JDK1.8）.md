@@ -1,18 +1,18 @@
 debug走一波.....
 
-###  1.`debug`---->`testCollectionsSortimplementsComparable`()![](I:\！文档库\md文档\企业微信截图_15550518621553.png)
+##### 1.`debug`---->`testCollectionsSortimplementsComparable`()![](assets/企业微信截图_15550518621553.png)
 
-### 2.调取`Collections.sort()`
+##### 2.调取`Collections.sort()`
 
-![](I:\！文档库\md文档\1555050519(1).png)
+![](assets/1555050519(1)-1555577916109.png)
 
 `Collections.sort()`调取`list.sort()`方法。也就是`Collections.sort()`方法用作`List`集合的排序
 
 ![](I:\！文档库\md文档\企业微信截图_15550521073731.png)
 
-### 3.进入`list.sort()`->`java.util.ArrayList#sort`(由于创建的是`ArrayList`对象，所以直接跳入`ArrayList`的`sort()`,`ArrayList.sort()`重写`List.sort()`的方法)
+##### 3.进入`list.sort()`->`java.util.ArrayList#sort`(由于创建的是`ArrayList`对象，所以直接跳入`ArrayList`的`sort()`,`ArrayList.sort()`重写`List.sort()`的方法)
 
-![](I:\！文档库\md文档\企业微信截图_15550533003050.png)
+![](assets/企业微信截图_15550533003050.png)
 
 ### 3.[重点]`java.util.Arrays#sort(T[], int, int, java.util.Comparator<? super T>)`
 
