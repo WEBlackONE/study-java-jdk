@@ -40,7 +40,7 @@
 
 # 3.Set
 
-- ### 3.1.HashSet
+- ### [3.1.HashSet](/set/HashSet.md)
 
 - ###  3.2.LinkedHashSet
 
