@@ -40,7 +40,7 @@
 
 # 3.Set
 
-- ### [3.1.HashSet](md文档/集合部分/set/HashSet.md)
+- ### [3.1.HashSet](set/HashSet.md)
 
 - ###  3.2.LinkedHashSet
 
@@ -50,7 +50,7 @@
 
   - #### 3.5.RegularEnumSet
 
-  - #### 3.6.JumboEnumSet
+  - ####  3.6.JumboEnumSet
 
 # 4.Map
 
