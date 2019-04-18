@@ -292,7 +292,9 @@ JDK 5在`java.util.concurrent`里引入了`ConcurrentHashMap`，在需要支持�
 
 
 
+https://github.com/WEBlackONE/study-java-jdk/blob/master/set/HashSet.md
 
+https://github.com/WEBlackONE/study-java-jdk/blob/master/md%E6%96%87%E6%A1%A3/%E9%9B%86%E5%90%88%E9%83%A8%E5%88%86/Set/HashSet.md
 
 
 
